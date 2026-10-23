@@ -1,0 +1,17 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local secrets and Vercel project settings
+.env
+.env.*
+!.env.example
+.vercel/

@@ -1,0 +1,8 @@
+{
+  "name": "yash-anand-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes vercel@latest dev"
+  }
+}

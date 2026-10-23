@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 780" fill="none">
+  <defs>
+    <linearGradient id="backdrop" x1="42" y1="28" x2="570" y2="773" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#283a60"/>
+      <stop offset=".55" stop-color="#182338"/>
+      <stop offset="1" stop-color="#111624"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="198" y1="415" x2="457" y2="775" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6689d8"/>
+      <stop offset="1" stop-color="#343661"/>
+    </linearGradient>
+    <linearGradient id="face" x1="260" y1="165" x2="417" y2="405" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f5c9aa"/>
+      <stop offset="1" stop-color="#c58477"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="77" y1="120" x2="552" y2="656" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68e5d0" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity=".04"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" stroke="#C4D3F5" stroke-opacity=".09"/>
+    </pattern>
+  </defs>
+  <path fill="url(#backdrop)" d="M0 0h640v780H0z"/>
+  <path fill="url(#grid)" d="M0 0h640v780H0z"/>
+  <circle cx="482" cy="163" r="179" fill="url(#glow)"/>
+  <path d="M61 603c105-77 222-116 351-116s200 35 245 75v218H61V603Z" fill="#101927" fill-opacity=".56"/>
+  <path d="M163 772c10-145 45-270 112-327 24-20 53-31 87-31s65 11 91 32c67 55 106 184 115 326H163Z" fill="url(#jacket)"/>
+  <path d="m267 451 96 108 91-108-26-42H290l-23 42Z" fill="#e1a68f"/>
+  <path d="M272 493c27 30 57 46 91 46s64-16 91-47l-30-36H302l-30 37Z" fill="#f1ede6"/>
+  <path d="M242 264c0-100 46-158 124-158 80 0 126 59 126 158v75c0 92-47 147-126 147-78 0-124-55-124-147v-75Z" fill="url(#face)"/>
+  <path d="M238 279c-13-129 44-194 137-194 97 0 143 61 133 187-23-17-43-43-54-78-49 37-115 55-197 52-2 12-8 23-19 33Z" fill="#242637"/>
+  <path d="M250 251c-37-23-61-3-54 39 6 32 24 48 48 46m228-85c37-23 61-3 54 39-6 32-24 48-48 46" stroke="#c78476" stroke-width="16" stroke-linecap="round"/>
+  <path d="M283 306c14-10 29-10 43 0m93 0c14-10 29-10 43 0" stroke="#493a3d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M320 377c18 15 38 15 56 0" stroke="#9d5e61" stroke-width="7" stroke-linecap="round"/>
+  <path d="M109 142h75m-75 17h45m323 325h63m-63 17h38" stroke="#68e5d0" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="522" cy="135" r="4" fill="#68e5d0"/>
+  <path d="m116 582 13 13-13 13-13-13 13-13Z" fill="#a78bfa" fill-opacity=".85"/>
+  <text x="42" y="734" fill="#D5DDF1" fill-opacity=".68" font-family="monospace" font-size="13" letter-spacing="3">PROFILE IMAGE PLACEHOLDER</text>
+</svg>
